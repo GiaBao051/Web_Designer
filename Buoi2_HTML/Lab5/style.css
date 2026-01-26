@@ -1,4 +1,11 @@
-table{
-    border: 1;
+table {
     border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.section-header {
+    background: lightgray;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
 }
