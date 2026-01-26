@@ -1,11 +1,27 @@
-.header {
-    column-span: 3;
-    text-align: center;
+table{
+    width: 100%;
+    border: 1px solid red;
+    border-collapse: collapse;
 }
 
-table {
-    font-weight: 900;
+.top-banner{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.main-banner{
+    background-color: pink;
+    color: red;
+    font-size: 30px;
     text-align: center;
-    border: 1;
-    border-color: red;
+    font-weight: bold;
+}
+
+.content{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
 }
