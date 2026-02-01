@@ -1,0 +1,38 @@
+table{
+    width: 700;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.dsTable{
+    width: 636px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+
+.dsTable td, th{
+    border: 1px solid #333;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: right;
+}
+
+.F1{
+    text-align: left;
+}
+
+.F2{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
