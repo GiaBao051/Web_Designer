@@ -41,17 +41,35 @@
             <tr>
                 <td class="label">Ngày Sinh :</td>
                 <td>
-                <select ></select>
-                <select ></select>
-                <select ></select>
+                <select>
+                    <script>
+                        for(let i = 1; i<=31; i++){
+                            document.write("<option>" + i + "</option>")
+                        }
+                    </script>
+                </select>
+                <select >
+                    <script>
+                        for(let i = 1; i<=12; i++){
+                            document.write("<option>" + i + "</option>")
+                        }
+                    </script>
+                </select>
+                <select>
+                    <script>
+                        for(let i = 1900; i<=2026; i++){
+                            document.write("<option>" + i + "</option>")
+                        }
+                    </script>
+                </select>
                 </td>
             </tr>
 
             <tr>
                 <td class="label">Giới Tính :</td>
                 <td class="radio-line">
-                <label><input type="radio" value="Nam"> Nam</label>
-                <label><input type="radio" value="Nu"> Nữ</label>
+                <label><input type="radio" name="Gender"> Nam</label>
+                <label><input type="radio" name="Gender"> Nữ</label>
                 </td>
             </tr>
 
