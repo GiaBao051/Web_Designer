@@ -1,0 +1,10 @@
+table{
+    margin:0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.background{
+    border: 1px;
+    border-collapse: collapse;
+}

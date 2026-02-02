@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  background-image: url("images/images.jpg");
+  background-repeat: no-repeat;     /* không lặp */
+  background-size: cover;           /* phủ kín màn hình */
+  background-position: center;      /* canh giữa */
+  background-attachment: fixed;     /* cuộn vẫn đứng yên (tùy chọn) */
+}
+
+h1{
+    color: red;
+}
+
+table{
+    margin: auto;
+}
+
+span{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+
+.lable{
+    text-align: left;
+}
+
+p{
+    color: red;
+    font-weight: bold;
+}
